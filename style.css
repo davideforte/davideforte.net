@@ -20,36 +20,17 @@ html, body {
 }
 
 .name {
-  position: relative;
+  position: absolute;
+  right: 50%;
   top: 5%;
-  left: 50%;
-  margin-right: -50%;
   height: 75%;
+  padding: 10px;
 }
 
 .name div {
   color: #fff;
   font-size: 400%;
   font-family: 'Dancing Script', cursive;
-}
-
-.bar div {
-  -webkit-animation-name: stretch;
-          animation-name: stretch;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
 }
 
 .name div {
@@ -116,24 +97,6 @@ html, body {
 }
 
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes stretch {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes stretch {
   0% {
     opacity: 0;
   }
