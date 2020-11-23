@@ -1,0 +1,144 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #000000;
+}
+
+.bar {
+  position: relative;
+  top: 5%;
+}
+
+.bar div {
+  border-bottom: 3px solid white;
+}
+
+.name {
+  position: relative;
+  top: 5%;
+  left: 50%;
+  margin-right: -50%;
+  height: 75%;
+}
+
+.name div {
+  color: #fff;
+  font-size: 400%;
+  font-family: 'Dancing Script', cursive;
+}
+
+.bar div {
+  -webkit-animation-name: stretch;
+          animation-name: stretch;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.name div {
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 2.100s;
+          animation-duration: 2.100s;
+}
+
+.name div:nth-of-type(1) {
+  -webkit-animation-delay: 1.33333s;
+          animation-delay: 1.33333s;
+}
+
+.name div:nth-of-type(2) {
+  -webkit-animation-delay: 1.36667s;
+          animation-delay: 1.36667s;
+}
+
+.name div:nth-of-type(3) {
+  -webkit-animation-delay: 1.4s;
+          animation-delay: 1.4s;
+}
+
+.name div:nth-of-type(4) {
+  -webkit-animation-delay: 1.43333s;
+          animation-delay: 1.43333s;
+}
+
+.name div:nth-of-type(5) {
+  -webkit-animation-delay: 1.46667s;
+          animation-delay: 1.46667s;
+}
+
+.name div:nth-of-type(6) {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.name div:nth-of-type(7) {
+  -webkit-animation-delay: 1.53333s;
+          animation-delay: 1.53333s;
+}
+
+.name div:nth-of-type(8) {
+  -webkit-animation-delay: 1.56667s;
+          animation-delay: 1.56667s;
+}
+
+.name div:nth-of-type(9) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes stretch {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes stretch {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
